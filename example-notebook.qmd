@@ -17,6 +17,7 @@ When you click the **Render** button a document will be generated that includes 
 library(tidyverse)
 library(ggplot2)
 library(usethis)
+library(renv)
 usethis::use_github_action("render-rmarkdown.yaml")
 ```
 
