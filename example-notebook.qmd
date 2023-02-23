@@ -19,6 +19,10 @@ library(ggplot2)
 library(usethis)
 library(renv)
 usethis::use_github_action("render-rmarkdown.yaml")
+renv::activate()
+renv::hydrate()
+
+install.packages('quarto')
 ```
 
 ```{r}
